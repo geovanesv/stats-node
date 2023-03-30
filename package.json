@@ -1,0 +1,20 @@
+{
+  "name": "estatistica",
+  "version": "1.0.0",
+  "description": "Projeto CRUD em Node",
+  "main": "app.js",
+  "dependencies": {
+    "ejs": "^2.5.9",
+    "express": "^4.16.3",
+    "express-load": "^1.1.16",
+    "mysql": "2.15.0",
+    "nodemon": "^2.0.22",
+    "upgrade": "^1.1.0"
+  },
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "author": "Geovane Araujo <geovaneslvrs79@gmail.com>",
+  "license": "MIT"
+}
